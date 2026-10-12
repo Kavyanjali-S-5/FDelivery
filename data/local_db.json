@@ -1,0 +1,718 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Fast Food",
+      "slug": "fast-food",
+      "description": "Crispy burgers, loaded fries and chicken",
+      "sort_order": 1
+    },
+    {
+      "id": "cat-2",
+      "name": "Rice Menu",
+      "slug": "rice-menu",
+      "description": "Aromatic fried rice, bowls and platters",
+      "sort_order": 2
+    },
+    {
+      "id": "cat-3",
+      "name": "Desserts",
+      "slug": "desserts",
+      "description": "Sweet cakes, waffles and ice creams",
+      "sort_order": 3
+    },
+    {
+      "id": "cat-4",
+      "name": "Coffee",
+      "slug": "coffee",
+      "description": "Artisan hot and iced caffeinated beverages",
+      "sort_order": 4
+    },
+    {
+      "id": "cat-5",
+      "name": "Pizza",
+      "slug": "pizza",
+      "description": "Wood-fired sourdough and stone-baked pizzas",
+      "sort_order": 5
+    }
+  ],
+  "foodItems": [
+    {
+      "id": "food-1",
+      "category_id": "cat-1",
+      "name": "Crispy Fried Chicken",
+      "description": "Golden, extra-crunchy fried chicken thighs seasoned with our secret 11-spice house rub.",
+      "price": 13,
+      "image_url": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.9,
+      "is_available": true
+    },
+    {
+      "id": "food-2",
+      "category_id": "cat-1",
+      "name": "Supreme Double Cheeseburger",
+      "description": "Double Angus beef patties, melted sharp cheddar, caramelized onions, crisp lettuce, and signature sauce.",
+      "price": 11.5,
+      "image_url": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.8,
+      "is_available": true
+    },
+    {
+      "id": "food-3",
+      "category_id": "cat-1",
+      "name": "Loaded Seasoned Fries",
+      "description": "Crispy skin-on potato fries smothered in warm cheese sauce, jalapeno slices, and smoky bacon bits.",
+      "price": 6.5,
+      "image_url": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.7,
+      "is_available": true
+    },
+    {
+      "id": "food-4",
+      "category_id": "cat-2",
+      "name": "Special Teriyaki Chicken Bowl",
+      "description": "Glazed chicken breast with sweet and savory teriyaki sauce, steamed Jasmine rice, broccoli and toasted sesame.",
+      "price": 14.5,
+      "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.9,
+      "is_available": true
+    },
+    {
+      "id": "food-5",
+      "category_id": "cat-2",
+      "name": "Yangzhou Fried Rice",
+      "description": "Wok-tossed fragrant rice with tiger prawns, barbecued chicken, sweet peas, eggs, and spring onion.",
+      "price": 12,
+      "image_url": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.6,
+      "is_available": true
+    },
+    {
+      "id": "food-6",
+      "category_id": "cat-3",
+      "name": "Molten Lava Chocolate Cake",
+      "description": "Decadent warm dark chocolate cake with a velvety molten center served with Madagascar vanilla cream.",
+      "price": 8.5,
+      "image_url": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80",
+      "rating": 5,
+      "is_available": true
+    },
+    {
+      "id": "food-7",
+      "category_id": "cat-3",
+      "name": "Strawberry Belgian Waffle",
+      "description": "Fluffy golden waffle topped with fresh field strawberries, whipped mascarpone, and pure maple syrup.",
+      "price": 9,
+      "image_url": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.8,
+      "is_available": true
+    },
+    {
+      "id": "food-8",
+      "category_id": "cat-4",
+      "name": "Iced Caramel Macchiato",
+      "description": "Freshly pulled espresso layered over chilled whole milk and vanilla syrup, topped with rich caramel drizzle.",
+      "price": 5.5,
+      "image_url": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.8,
+      "is_available": true
+    },
+    {
+      "id": "food-9",
+      "category_id": "cat-4",
+      "name": "Creamy Cappuccino",
+      "description": "Rich balanced espresso with equal parts velvety steamed milk and velvety microfoam, dusted with cocoa.",
+      "price": 4.75,
+      "image_url": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.7,
+      "is_available": true
+    },
+    {
+      "id": "food-10",
+      "category_id": "cat-5",
+      "name": "Classic Margherita Stone Pizza",
+      "description": "San Marzano tomato base, fresh buffalo mozzarella, aromatic fresh basil leaves, and extra virgin olive oil.",
+      "price": 15,
+      "image_url": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.9,
+      "is_available": true
+    },
+    {
+      "id": "food-11",
+      "category_id": "cat-5",
+      "name": "Spicy Pepperoni & Hot Honey Pizza",
+      "description": "Crispy cup-and-char pepperoni, whole milk mozzarella, house tomato sauce, and an artisanal spicy honey drizzle.",
+      "price": 17.5,
+      "image_url": "https://images.unsplash.com/photo-1534308983496-4fabb1a015ee?auto=format&fit=crop&w=600&q=80",
+      "rating": 5,
+      "is_available": true
+    },
+    {
+      "id": "food-12",
+      "category_id": "cat-1",
+      "name": "BBQ Bacon Burger",
+      "description": "Smoky barbecue glaze, applewood smoked bacon, crispy onion rings, and Monterey Jack cheese.",
+      "price": 12.75,
+      "image_url": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=600&q=80",
+      "rating": 4.7,
+      "is_available": true
+    }
+  ],
+  "users": [
+    {
+      "id": "usr-admin",
+      "email": "admin@fdelivery.com",
+      "full_name": "Administrator",
+      "password_hash": "$2b$10$aZIOEmkQaXyO/z4lJOnDBOWLFYrec8cwBbC1cxDCwO1CB31j4y44C",
+      "phone": "+1 555 000 1111",
+      "address": "100 Food Plaza Blvd",
+      "city": "New York",
+      "zip": "10001",
+      "role": "admin",
+      "created_at": "2026-09-11T05:07:48.615Z"
+    },
+    {
+      "id": "usr-customer",
+      "email": "customer@fdelivery.com",
+      "full_name": "John Doe",
+      "password_hash": "$2b$10$eSJwvWCUEA0PPJkdYZ5eGe1JUIMDTxeI1tfa1kZdmSpqWKeK94wGy",
+      "phone": "+1 555 234 5678",
+      "address": "742 Evergreen Terrace",
+      "city": "Springfield",
+      "zip": "97477",
+      "role": "customer",
+      "created_at": "2026-10-01T05:07:48.713Z"
+    },
+    {
+      "email": "testuser@example.com",
+      "full_name": "Test User",
+      "password_hash": "$2b$10$EDSnUTeEliC5CiHVZ9iJyeBX.jN/thzXzREq10L2o.xiwOdPraOOG",
+      "phone": "+15551234567",
+      "address": "456 Market St",
+      "city": "Boston",
+      "zip": "02108",
+      "role": "customer",
+      "id": "usr-1791695293436-b0nv1",
+      "created_at": "2026-10-11T05:08:13.437Z"
+    },
+    {
+      "email": "alice@example.com",
+      "full_name": "Alice Smith",
+      "password_hash": "$2b$10$1oVtobqidrGISk9V0vLy4eUXHmb0A3MKCTFogrCS1O42pdHnrdnMC",
+      "phone": "+1 555 777 8888",
+      "address": "100 Maple St",
+      "city": "Seattle",
+      "zip": "98101",
+      "role": "customer",
+      "id": "usr-1791695672709-kkt8j",
+      "created_at": "2026-10-11T05:14:32.709Z"
+    },
+    {
+      "email": "skavyanjali.official@gmail.com",
+      "full_name": "Kavyanjali S",
+      "password_hash": "$2b$10$NLAV1c1BdHcKL9sAk9wjMO.nYxFZ.0N4i4FFp2V4I7OOd32G6v0j6",
+      "phone": "9361056711",
+      "address": "9-2/102,Thirumalai Gounder street,Elampillai",
+      "city": "Salem",
+      "zip": "637502",
+      "role": "customer",
+      "id": "usr-1791714597301-9qhmx",
+      "created_at": "2026-10-11T10:29:57.301Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1791784081380",
+      "order_number": "FD-20261012-9502",
+      "user_id": "usr-customer",
+      "customer_name": "John Doe",
+      "customer_email": "customer@fdelivery.com",
+      "customer_phone": "+1 555 234 5678",
+      "delivery_address": "742 Evergreen Terrace",
+      "city": "Springfield",
+      "zip": "97477",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 13,
+      "delivery_fee": 4.99,
+      "total_amount": 17.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Pending",
+      "created_at": "2026-10-12T05:48:01.380Z",
+      "updated_at": "2026-10-12T05:48:01.381Z",
+      "items": [
+        {
+          "id": "oi-8fab0nj",
+          "order_id": "ord-1791784081380",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        }
+      ]
+    },
+    {
+      "id": "ord-1791717252296",
+      "order_number": "FD-20261011-3565",
+      "user_id": "usr-1791714597301-9qhmx",
+      "customer_name": "Kavyanjali S",
+      "customer_email": "skavyanjali.official@gmail.com",
+      "customer_phone": "9361056711",
+      "delivery_address": "9-2/102,Thirumalai Gounder street,Elampillai",
+      "city": "Salem",
+      "zip": "637502",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 13,
+      "delivery_fee": 4.99,
+      "total_amount": 17.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Pending",
+      "created_at": "2026-10-11T11:14:12.297Z",
+      "updated_at": "2026-10-11T11:14:12.297Z",
+      "items": [
+        {
+          "id": "oi-oumt5z8",
+          "order_id": "ord-1791717252296",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        }
+      ]
+    },
+    {
+      "id": "ord-1791714613038",
+      "order_number": "FD-20261011-6037",
+      "user_id": "usr-1791714597301-9qhmx",
+      "customer_name": "Kavyanjali S",
+      "customer_email": "skavyanjali.official@gmail.com",
+      "customer_phone": "9361056711",
+      "delivery_address": "9-2/102,Thirumalai Gounder street,Elampillai",
+      "city": "Salem",
+      "zip": "637502",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 13,
+      "delivery_fee": 4.99,
+      "total_amount": 17.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Confirmed",
+      "created_at": "2026-10-11T10:30:13.038Z",
+      "updated_at": "2026-10-11T10:31:28.463Z",
+      "items": [
+        {
+          "id": "oi-44wdqcf",
+          "order_id": "ord-1791714613038",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        }
+      ]
+    },
+    {
+      "id": "ord-1791707582294",
+      "order_number": "FD-20261011-6156",
+      "customer_name": "Test Customer Cancel",
+      "customer_email": "canceltest@fdelivery.com",
+      "customer_phone": "+1 555 123 4567",
+      "delivery_address": "456 Broadway",
+      "city": "New York",
+      "zip": "10002",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 11.5,
+      "delivery_fee": 4.99,
+      "total_amount": 16.49,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Cancelled",
+      "created_at": "2026-10-11T08:33:02.294Z",
+      "updated_at": "2026-10-11T08:33:02.294Z",
+      "items": [
+        {
+          "id": "oi-1upkm7b",
+          "order_id": "ord-1791707582294",
+          "food_item_id": "food-2",
+          "item_name": "Supreme Double Cheeseburger",
+          "unit_price": 11.5,
+          "quantity": 1,
+          "total_price": 11.5
+        }
+      ]
+    },
+    {
+      "id": "ord-1791707582282",
+      "order_number": "FD-20261011-9487",
+      "customer_name": "Test Customer Delivery",
+      "customer_email": "deliverytest@fdelivery.com",
+      "customer_phone": "+1 555 987 6543",
+      "delivery_address": "123 Market St",
+      "city": "New York",
+      "zip": "10001",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 26,
+      "delivery_fee": 4.99,
+      "total_amount": 30.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "paid",
+      "status": "Delivered",
+      "created_at": "2026-10-11T08:33:02.282Z",
+      "updated_at": "2026-10-11T08:33:02.292Z",
+      "items": [
+        {
+          "id": "oi-h4t4h6c",
+          "order_id": "ord-1791707582282",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 2,
+          "total_price": 26
+        }
+      ],
+      "delivered_at": "2026-10-11T08:33:02.292Z"
+    },
+    {
+      "id": "ord-1791706959507",
+      "order_number": "FD-20261011-2948",
+      "customer_name": "Bypass Test",
+      "customer_email": "bypass@example.com",
+      "customer_phone": "+1 555 444 3333",
+      "delivery_address": "789 Bypass St",
+      "city": "Testville",
+      "zip": "12345",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 13,
+      "delivery_fee": 4.99,
+      "total_amount": 17.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Out for Delivery",
+      "created_at": "2026-10-11T08:22:39.507Z",
+      "updated_at": "2026-10-11T08:22:39.508Z",
+      "items": [
+        {
+          "id": "oi-rbt9qlg",
+          "order_id": "ord-1791706959507",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        }
+      ]
+    },
+    {
+      "id": "ord-1791706959486",
+      "order_number": "FD-20261011-8568",
+      "customer_name": "Attempt Test",
+      "customer_email": "attempts@example.com",
+      "customer_phone": "+1 555 987 6543",
+      "delivery_address": "456 Attempt Ave",
+      "city": "Testville",
+      "zip": "12345",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 13,
+      "delivery_fee": 4.99,
+      "total_amount": 17.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Out for Delivery",
+      "created_at": "2026-10-11T08:22:39.486Z",
+      "updated_at": "2026-10-11T08:22:39.487Z",
+      "items": [
+        {
+          "id": "oi-c0kjsde",
+          "order_id": "ord-1791706959486",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        }
+      ]
+    },
+    {
+      "id": "ord-1791706959477",
+      "order_number": "FD-20261011-5415",
+      "customer_name": "Test Customer",
+      "customer_email": "test@example.com",
+      "customer_phone": "+1 555 123 4567",
+      "delivery_address": "123 Test St",
+      "city": "Testville",
+      "zip": "12345",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 13,
+      "delivery_fee": 4.99,
+      "total_amount": 17.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "paid",
+      "status": "Delivered",
+      "created_at": "2026-10-11T08:22:39.477Z",
+      "updated_at": "2026-10-11T08:22:39.485Z",
+      "items": [
+        {
+          "id": "oi-9anqmso",
+          "order_id": "ord-1791706959477",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        }
+      ],
+      "delivered_at": "2026-10-11T08:22:39.485Z"
+    },
+    {
+      "id": "ord-1791706953319",
+      "order_number": "FD-20261011-7006",
+      "customer_name": "Claire Dunphy",
+      "customer_email": "claire@example.com",
+      "customer_phone": "+1 555 888 9999",
+      "delivery_address": "120 California St",
+      "city": "Los Angeles",
+      "zip": "90001",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 13,
+      "delivery_fee": 4.99,
+      "total_amount": 17.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "paid",
+      "status": "Delivered",
+      "created_at": "2026-10-11T08:22:33.319Z",
+      "updated_at": "2026-10-11T08:22:33.442Z",
+      "items": [
+        {
+          "id": "oi-fie83d8",
+          "order_id": "ord-1791706953319",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        }
+      ],
+      "delivered_at": "2026-10-11T08:22:33.442Z"
+    },
+    {
+      "id": "ord-1791706909419",
+      "order_number": "FD-20261011-5591",
+      "customer_name": "Bob Smith",
+      "customer_email": "bob@example.com",
+      "customer_phone": "+1 555 333 4444",
+      "delivery_address": "50 Main St",
+      "city": "Boston",
+      "zip": "02101",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 26,
+      "delivery_fee": 4.99,
+      "total_amount": 30.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Out for Delivery",
+      "created_at": "2026-10-11T08:21:49.419Z",
+      "updated_at": "2026-10-11T08:21:49.477Z",
+      "items": [
+        {
+          "id": "oi-1y55tai",
+          "order_id": "ord-1791706909419",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 2,
+          "total_price": 26
+        }
+      ]
+    },
+    {
+      "id": "ord-1791706826010",
+      "order_number": "FD-20261011-8258",
+      "customer_name": "Bypass Test",
+      "customer_email": "bypass@example.com",
+      "customer_phone": "+1 555 444 3333",
+      "delivery_address": "789 Bypass St",
+      "city": "Testville",
+      "zip": "12345",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 13,
+      "delivery_fee": 4.99,
+      "total_amount": 17.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Out for Delivery",
+      "created_at": "2026-10-11T08:20:26.010Z",
+      "updated_at": "2026-10-11T08:20:26.011Z",
+      "items": [
+        {
+          "id": "oi-mk7emzf",
+          "order_id": "ord-1791706826010",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        }
+      ]
+    },
+    {
+      "id": "ord-1791706825992",
+      "order_number": "FD-20261011-8770",
+      "customer_name": "Attempt Test",
+      "customer_email": "attempts@example.com",
+      "customer_phone": "+1 555 987 6543",
+      "delivery_address": "456 Attempt Ave",
+      "city": "Testville",
+      "zip": "12345",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 13,
+      "delivery_fee": 4.99,
+      "total_amount": 17.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Out for Delivery",
+      "created_at": "2026-10-11T08:20:25.992Z",
+      "updated_at": "2026-10-11T08:20:25.992Z",
+      "items": [
+        {
+          "id": "oi-z23qj4h",
+          "order_id": "ord-1791706825992",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        }
+      ]
+    },
+    {
+      "id": "ord-1791706825986",
+      "order_number": "FD-20261011-6593",
+      "customer_name": "Test Customer",
+      "customer_email": "test@example.com",
+      "customer_phone": "+1 555 123 4567",
+      "delivery_address": "123 Test St",
+      "city": "Testville",
+      "zip": "12345",
+      "delivery_time": "ASAP",
+      "notes": "",
+      "subtotal": 13,
+      "delivery_fee": 4.99,
+      "total_amount": 17.99,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "paid",
+      "status": "Delivered",
+      "created_at": "2026-10-11T08:20:25.987Z",
+      "updated_at": "2026-10-11T08:20:25.991Z",
+      "items": [
+        {
+          "id": "oi-ilhiuxx",
+          "order_id": "ord-1791706825986",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        }
+      ],
+      "delivered_at": "2026-10-11T08:20:25.991Z"
+    },
+    {
+      "id": "ord-101",
+      "order_number": "FD-202610-8401",
+      "user_id": "usr-customer",
+      "customer_name": "John Doe",
+      "customer_email": "customer@fdelivery.com",
+      "customer_phone": "+1 555 234 5678",
+      "delivery_address": "742 Evergreen Terrace",
+      "city": "Springfield",
+      "zip": "97477",
+      "delivery_time": "ASAP",
+      "notes": "Please ring the doorbell twice",
+      "subtotal": 24.5,
+      "delivery_fee": 4.99,
+      "total_amount": 29.49,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Delivered",
+      "created_at": "2026-10-10T05:07:48.457Z",
+      "updated_at": "2026-10-10T07:07:48.459Z",
+      "items": [
+        {
+          "id": "oi-1",
+          "order_id": "ord-101",
+          "food_item_id": "food-1",
+          "item_name": "Crispy Fried Chicken",
+          "unit_price": 13,
+          "quantity": 1,
+          "total_price": 13
+        },
+        {
+          "id": "oi-2",
+          "order_id": "ord-101",
+          "food_item_id": "food-2",
+          "item_name": "Supreme Double Cheeseburger",
+          "unit_price": 11.5,
+          "quantity": 1,
+          "total_price": 11.5
+        }
+      ]
+    },
+    {
+      "id": "ord-102",
+      "order_number": "FD-202610-8402",
+      "user_id": "usr-customer",
+      "customer_name": "Sarah Connor",
+      "customer_email": "sarah@example.com",
+      "customer_phone": "+1 555 987 6543",
+      "delivery_address": "100 Ocean View Drive, Apt 4B",
+      "city": "Los Angeles",
+      "zip": "90001",
+      "delivery_time": "Within 30 min",
+      "notes": "Leave at front lobby reception",
+      "subtotal": 32.5,
+      "delivery_fee": 0,
+      "total_amount": 32.5,
+      "payment_method": "cash_on_delivery",
+      "payment_status": "pending",
+      "status": "Out for Delivery",
+      "created_at": "2026-10-11T03:07:48.459Z",
+      "updated_at": "2026-10-11T07:42:12.810Z",
+      "items": [
+        {
+          "id": "oi-3",
+          "order_id": "ord-102",
+          "food_item_id": "food-10",
+          "item_name": "Classic Margherita Stone Pizza",
+          "unit_price": 15,
+          "quantity": 1,
+          "total_price": 15
+        },
+        {
+          "id": "oi-4",
+          "order_id": "ord-102",
+          "food_item_id": "food-11",
+          "item_name": "Spicy Pepperoni & Hot Honey Pizza",
+          "unit_price": 17.5,
+          "quantity": 1,
+          "total_price": 17.5
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-10-12T05:48:01.381Z"
+}

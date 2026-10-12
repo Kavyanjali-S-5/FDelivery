@@ -1,0 +1,6 @@
+{
+  "name": "FDelivery - LC26 Food Delivery Platform",
+  "description": "A professional full-stack food delivery application with storefront, real-time cart, checkout, order tracking, admin dashboard, and Supabase database integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
